@@ -1,0 +1,45 @@
+\documentclass{scrartcl}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[spanish]{babel}
+\usepackage{hyperref} 
+\setlength{\parskip}{\baselineskip}
+
+\title{Elección de una Arquitectura}
+\subtitle{\large PAMN - Programación de Aplicaciónes Moviles Nativas}
+\author{Chamil José Cruz Razeq}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \newpage
+
+    Todas las tareas propuestas se encuentran disponibles en el siguiente
+         repositorio de \href{https://github.com/chamilstudy/ulpgc_pamn_labs}{GitHub}.
+
+    \section{Supuesto 1}
+        Al tratarse de un equipo muy pequeño, con poco presupuesto y tiempo de desarrollo,
+         el modelo MVVM sería el idoneo por su facilidad de implementación. No obstante, 
+         MVI ofrecería ciertas ventajas sobre todo en seguridad.
+    \section{Supuesto 2}
+        Al tratarse de un equipo pequeño, con poco tiempo de desrrollo donde premia la
+         rapidez y la seguridad (al tratarse con información fragil como es la mensajería)
+         un modelo idoneo sería el MVI, ya que facilita la creación de pruebas y plantea
+         transferencia de información direccional. Además al tratarse de una aplicación social,
+         el funcionamiento por "intención" justifica mas el uso de MVI.
+    \section{Supuesto 3}
+        Al tratarse de un software de largo desarrollo, para una gran empresa cuyas
+         necesidades pueden cambiar o evolucionar con el tiempo, requieren de un modelo
+         afín al cambio como plantea la arquitectura Hexagonal.
+    \section{Supuesto 4}
+        Al tratarse de un software de largo desarrollo, donde premia la estabilidad
+         y la seguridad, MVI sería el modelo idoneo ya que nos permite la elaboración
+         de pruebas con facilidad y plantea una transferencía de información direccional.
+    \section{Supuesto 5}
+        Al tratarse de un prototipo se optará por un desarrollo rápido que permita
+         mostrar las funcionalidades básicas del software en un entorno controlado,
+         por lo cual para lograr lo anterior, MVI sería el modelo idoneo para este
+         cometido.
+        
+
+\end{document}
