@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1698809259 "/Users/chamil/Documents/university/pamn/assignment6/pamn_l6_diseñobbdd.tex" "pamn_l6_diseñobbdd.pdf" "pamn_l6_diseñobbdd" 1698809259
-  "/Users/chamil/Documents/university/pamn/assignment6/pamn_l6_diseñobbdd.tex" 1698809258 5670 3f53347f1cb9dfc04fd407fc8e2a2aa5 ""
+["pdflatex"] 1698809843 "/Users/chamil/Documents/university/pamn/assignment6/pamn_l6_diseñobbdd.tex" "pamn_l6_diseñobbdd.pdf" "pamn_l6_diseñobbdd" 1698809844
+  "/Users/chamil/Documents/university/pamn/assignment6/pamn_l6_diseñobbdd.tex" 1698809843 5863 efcc7e8be8e9883b01a298d6b141dd36 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -15,6 +16,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -77,9 +79,9 @@
   "img//areasdiagram.jpg" 1698707600 153383 748d01a52b26bd24bd654d73259888ea ""
   "img//bbdddiagram.jpg" 1698799321 398737 b06b2e3323cc5961fb5d039b371635eb ""
   "img//mvvmdiagram.jpg" 1698707600 124047 c23e236ae0b4f942986e13eb82bb0258 ""
-  "pamn_l6_diseñobbdd.aux" 1698809259 2059 9cd34eb4390406c99b48707dc7d8a2ef "pdflatex"
-  "pamn_l6_diseñobbdd.out" 1698809259 808 a54e214c462b9ab7f833ec3be1a18977 "pdflatex"
-  "pamn_l6_diseñobbdd.tex" 1698809258 5670 3f53347f1cb9dfc04fd407fc8e2a2aa5 ""
+  "pamn_l6_diseñobbdd.aux" 1698809844 2111 5c15f999bc340c776cb6ffd2673a4d8f "pdflatex"
+  "pamn_l6_diseñobbdd.out" 1698809844 808 a54e214c462b9ab7f833ec3be1a18977 "pdflatex"
+  "pamn_l6_diseñobbdd.tex" 1698809843 5863 efcc7e8be8e9883b01a298d6b141dd36 ""
   (generated)
   "pamn_l6_diseñobbdd.aux"
   "pamn_l6_diseñobbdd.log"
