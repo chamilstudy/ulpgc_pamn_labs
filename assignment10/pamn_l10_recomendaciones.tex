@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\graphicspath{ {img/} }
+\setlength{\parskip}{\baselineskip}
+
+\title{Recomendaciones de Arquitectura para Aplicacioens Android \\[3ex] \small PAMN - Programación de Aplicaciónes Moviles Nativas}
+
+\author{Chamil José Cruz Razeq}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \newpage
+
+    \section{Introducción}
+        Todos los informes sobre las tareas propuestas se encuentran disponibles en el
+         siguiente repositorio de \href{https://github.com/chamilstudy/ulpgc_pamn_assigments}{GitHub}.
+
+        Se realizará un breve estudio sobre las recomendaciones propuestas por "Google" \cite{recomendaciones}.
+    
+    \section{Recomendación 1: Diseño y Planificación}
+        \subsection{Descripción}
+        Consiste en garantizar una interfaz de usuario:
+            \begin{itemize}
+                \item Responsive, de forma que la aplicación de adecué a las dimensiones y tipo de 
+                       dispositivo.
+                \item Interactiva, aprovechando al máximo los recursos del dispositivo para un experiencia
+                       de usuario rápida y eficaz. Para ello se aconseja fijar a 60 la tasa de fotogramas por
+                       segundo y el uso de pantallas de carga para las pantallas o elementos que presenten mayor lentitud.
+                \item Localización, ofreciendo idiomas alternativos y facilitando la traducción de la aplicación.
+            \end{itemize}
+            
+        \subsection{Decisión}
+        Se tendrán en cuenta estas recomendaciones al considerarse primordiales.
+
+        \subsection{Justificación}
+        El apartado visual y de experiencia de usuario es vital para el exito de una aplicación, si no se
+         alcanzan unos mínimos de calidad, una mala presentación del producto puede ensombrecer el mejor de
+         los back-ends.
+
+    \section{Recomendación 2: Conectividad}
+        \subsection{Descripción}
+        Según "Google" más de la mitad de los usuario utilizan sus dispositivos a través de una
+         red 2G, por lo que se debe tomar en consideración que datos se almacenarán localmente y
+         cuales requerirán de conexión a internet.
+
+        \subsection{Decisión}
+        Se tendrá en cuenta esta recomendacón debido a la naturaleza de la aplicación a desarrollar.
+
+        \subsection{Justificación}
+        Dependiendo del tipo de aplicación a desarrollar y del público objetivo, puede interesarnos
+         mas que la aplicación posea toda la información necesaria para su funcionamiento en el dispositivo,
+         tal cómo es el caso de nuestra propuesta, siendo conscientes de que la aplicación podrá ser utilizada
+         en localizaciones de dificil acceso a la red.
+
+    \section{Recomendación 3: Pruebas Locales}
+        \subsection{Descripción}
+        Pruebas realizadas a traves del JVM y no desde el emulador, permitiendo realizarlas de manera más
+         rapida y localizada.
+
+        \subsection{Decisión}
+        Se realizarán pruebas de este tipo.
+
+        \subsection{Justificación}
+        A la hora de probar bases de datos o el funcionamiento de ciertas funciones, estás pruebas son
+         faciles de desarrollar y percibir.
+
+    \section{Recomendación 4: Pruebas Instrumentadas}
+        \subsection{Descripción}
+        Pruebas realizadas en el propio dispositivo, físico o emulados.
+
+        \subsection{Decisión}
+        Se realizarán pruebas de este tipo.
+
+        \subsection{Justificación}
+        Estas pruebas son atractivas ya que se pueden observar los cambios en el propio programa y realizar
+         pruebas tanto de interfaz como de carga de datos.
+
+    \section{Recomendación 5: Privacidad}
+        \subsection{Descripción}
+        Se debe tener en cuenta los permisos que se solicitarán al usuario, siendo aconsejable minimizar la
+         necesidad de estos, especialmente los de ubicación. Adicionalmente es importante informar a los
+         usuarios sobre de que manera se estan utilizando sus datos y ofrecer la posibilidad de restablecerlos.
+
+        \subsection{Decisión}
+        Se tendrán en cuenta las recomendaciones.
+
+        \subsection{Justificación}
+        La integridad del software es vital para garantizar la confianza del usuario, no obstante el 
+         software planteado no recopilará información delicada del usuario.
+
+    \begin{thebibliography}{}
+        \bibitem{recomendaciones} Recomendaciones de Arquitectura para Aplicaciones Android - https://developer.android.com/guide?hl=es-419
+    \end{thebibliography}
+        
+\end{document}
